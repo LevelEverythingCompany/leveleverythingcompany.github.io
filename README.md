@@ -1,15 +1,27 @@
-# The Level Everything Company | Website
+# The Level Everything Company website
 
-Website source for the company GitHub Pages homepage.
+Official public website: https://leveleverythingcompany.github.io/
 
-- **Required GitHub organization handle for this build:** `LevelEverythingCompany`
-- **Required repo:** `leveleverythingcompany.github.io` (public)
-- **Expected URL after Pages is enabled:** https://leveleverythingcompany.github.io/
-- **Pages:** Settings → Pages → Deploy from a branch → main → /(root).
-- Upload the **files inside this folder** to the repository root; `index.html` must be in root.
-- If you choose a different organization handle, STOP. Rebuild canonical/OG/schema/sitemap/robots URLs before deployment.
-- The four existing projects still live in Wommper1's personal repositories. Do not transfer any projects as part of this initial deployment.
-- Official website for the independent creator brand The Level Everything Company.
-- The public brand is not yet registered as an LLC; don't claim otherwise.
+A static GitHub Pages site maintained in this organization. The four featured apps remain in Wommper1’s personal repositories; this site links to them without moving or modifying them.
 
-Your current design includes index.html, story.html, field-notes.html, assets/, robots.txt, and sitemap.xml.
+## Publishing
+
+Pages publishes the main branch from the repository root. Keep index.html at the root. CSS and JavaScript references use versioned query strings so visitors receive new assets after updates; update those versions when changing shared assets.
+
+## Pages and assets
+
+- index.html: projects, screenshots, downloads, requirements, and testing evidence.
+- story.html: creator background.
+- field-notes.html: workshop journal.
+- help.html: installation guidance, support, public contact, and website privacy information.
+- 404.html: custom missing-page response, excluded from indexing.
+- social-preview.png: 1200 × 630 sharing image; not a replacement for the approved company logo.
+- sitemap.xml and robots.txt: crawler discovery.
+
+## Content standards
+
+Use verified release links and actual screenshots. Label sample data and experimental features. Do not imply legal incorporation, guaranteed support, or broader testing than the project evidence supports. Keep private contact details and unpublished plans out of this public repository.
+
+## Search indexing
+
+Canonical URLs, a sitemap, and sharing metadata are configured. Search indexing is controlled by search providers and is not guaranteed. Google Search Console ownership verification and sitemap submission require the owner’s Google account; no verification token is included here.
