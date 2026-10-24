@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leveleverythingcompany.github.io/sitemap.xml
