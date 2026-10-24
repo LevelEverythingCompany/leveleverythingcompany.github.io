@@ -7,6 +7,9 @@
     const filter = btn.dataset.filter;
     filters.forEach(b => b.setAttribute('aria-pressed', String(b === btn)));
     projects.forEach(p => { p.hidden = filter !== 'all' && !p.dataset.project.split(' ').includes(filter); });
+    const count = document.getElementById('project-count');
+    const shown = [...projects].filter(p => !p.hidden).length;
+    if (count) count.textContent = filter === 'all' ? `Showing all ${shown} projects.` : `Showing ${shown} ${btn.textContent.toLowerCase()} project${shown === 1 ? '' : 's'}.`;
   }));
   const phrases = [
     'What if history could find you instead of the other way around?',
