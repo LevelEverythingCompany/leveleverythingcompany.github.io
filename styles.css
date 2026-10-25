@@ -35,3 +35,9 @@ button{font:inherit}p{margin:0 0 1.25rem}.container{max-width:var(--max);margin:
 html{scroll-padding-top:24px}section[id],main[id]{scroll-margin-top:24px}.project-actions a:focus-visible,summary:focus-visible{outline:3px solid var(--ember);outline-offset:4px}.project-preview{aspect-ratio:auto}.help-card{min-width:0}.help-card .button{white-space:normal;max-width:100%}.project .tiny,.footer small,.footer-bottom{color:#aab8c6}.nav-links a{white-space:normal}main{min-width:0}
 @media(max-width:380px){.container{padding-left:18px;padding-right:18px}.hero h1{font-size:2.6rem}.brand{font-size:.75rem}.under-hero{gap:10px}.nav-links{gap:4px 12px}.nav-links a{font-size:.76rem}.project{padding:18px}.project-links{gap:12px}.project-controls{gap:7px}.filter-button{padding:9px 12px}.orbit{min-height:260px}.orbit-badge{padding:8px}.help-card{padding:22px}.page-hero h1{font-size:2.8rem}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+
+/* Approved compass badge and public contact */
+.brand-logo{display:block;width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:50%}.brand{gap:10px}.hero-logo{display:flex;align-items:center;justify-content:center;min-width:0}.hero-logo img{width:100%;max-width:490px;height:auto;display:block;border-radius:16px;filter:drop-shadow(0 12px 35px rgba(0,0,0,.25))}.hero{grid-template-columns:minmax(0,1.22fr) minmax(0,.88fr)}
+@media(max-width:1000px){.hero{grid-template-columns:1fr}.hero-logo{max-width:430px;width:100%;margin:0 auto}}
+@media(max-width:680px){.brand-logo{width:52px;height:52px}.hero-logo{max-width:330px}.brand{font-size:.8rem}}

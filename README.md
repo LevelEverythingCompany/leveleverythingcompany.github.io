@@ -25,3 +25,8 @@ Use verified release links and actual screenshots. Label sample data and experim
 ## Search indexing
 
 Canonical URLs, a sitemap, and sharing metadata are configured. Search indexing is controlled by search providers and is not guaranteed. Google Search Console ownership verification and sitemap submission require the owner’s Google account; no verification token is included here.
+
+
+## Brand and contact
+
+The approved compass-and-mountain badge is supplied by Alex and isolated from the uploaded brand guide for use as company-logo.jpg. The public contact email, approved by Alex, is wommper1@gmail.com. The source screenshot annotations and color guide are not website assets.
