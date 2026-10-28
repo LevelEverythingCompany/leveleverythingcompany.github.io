@@ -2,7 +2,7 @@
 
 Official public website: https://leveleverythingcompany.github.io/
 
-A static GitHub Pages site maintained in this organization. The four featured apps remain in Wommper1’s personal repositories; this site links to them without moving or modifying them.
+A static GitHub Pages site maintained in this organization. The four featured apps remain in Wommper1’s personal repositories; this site links to them without moving them. Documentation improvements are reviewed in separate pull requests; application functionality is maintained in the project repositories.
 
 ## Publishing
 
@@ -24,7 +24,7 @@ Use verified release links and actual screenshots. Label sample data and experim
 
 ## Search indexing
 
-Canonical URLs, a sitemap, and sharing metadata are configured. Search indexing is controlled by search providers and is not guaranteed. Google Search Console ownership verification and sitemap submission require the owner’s Google account; no verification token is included here.
+Canonical URLs, a sitemap, and sharing metadata are configured. Search indexing is controlled by search providers and is not guaranteed. Google Search Console ownership verification and sitemap submission require the owner’s Google account; the existing Google ownership-verification file must remain in place. Verification does not guarantee indexing.
 
 
 ## Brand and contact
