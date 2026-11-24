@@ -16,7 +16,10 @@ Pages publishes the main branch from the repository root. Keep index.html at the
 - help.html: installation guidance, support, public contact, and website privacy information.
 - 404.html: custom missing-page response, excluded from indexing.
 - social-preview.png: 1200 × 630 sharing image; not a replacement for the approved company logo.
-- sitemap.xml and robots.txt: crawler discovery.
+- company-logo.jpg: full-size approved badge (homepage hero). company-logo-small.jpg, favicon.png, and apple-touch-icon.png are resized copies for the header and browser icons.
+- alex-shade-portrait.jpg: compressed portrait. Export new photos as JPG (about 1200 px wide) rather than PNG to keep pages fast.
+- sitemap.xml: update each page's lastmod date when its content changes.
+- robots.txt: crawler discovery.
 
 ## Content standards
 
