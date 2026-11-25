@@ -41,3 +41,7 @@ html{scroll-padding-top:24px}section[id],main[id]{scroll-margin-top:24px}.projec
 .brand-logo{display:block;width:60px;height:60px;object-fit:contain;flex-shrink:0;border-radius:50%}.brand{gap:10px}.hero-logo{display:flex;align-items:center;justify-content:center;min-width:0}.hero-logo img{width:100%;max-width:490px;height:auto;display:block;border-radius:16px;filter:drop-shadow(0 12px 35px rgba(0,0,0,.25))}.hero{grid-template-columns:minmax(0,1.22fr) minmax(0,.88fr)}
 @media(max-width:1000px){.hero{grid-template-columns:1fr}.hero-logo{max-width:430px;width:100%;margin:0 auto}}
 @media(max-width:680px){.brand-logo{width:52px;height:52px}.hero-logo{max-width:330px}.brand{font-size:.8rem}}
+
+.hero .motto{margin:0 0 28px;padding-left:18px;border-left:3px solid var(--ember);max-width:640px}
+.hero .motto-label{display:block;font-size:.7rem;font-weight:750;letter-spacing:.18em;text-transform:uppercase;color:var(--mint);margin-bottom:6px}
+.hero .motto-line{display:block;font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;font-style:italic;font-size:clamp(1.35rem,2.6vw,1.95rem);line-height:1.3;color:var(--ember)}
